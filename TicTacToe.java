@@ -17,7 +17,7 @@ import javax.swing.JPanel;
 public class TicTaeToe implements ActionListener{
 
  // Frame
- JFrame f = new JFrame("DataFlar's Tic Tac Toe");
+ JFrame f = new JFrame("Tic Tac Toe");
 
  // Label pemenang.
  Label lbl=new Label("");
