@@ -23,7 +23,7 @@ public class TicTaeToe implements ActionListener{
  Label lbl=new Label("");
 
  // Setting icon
- Image icon = Toolkit.getDefaultToolkit().getImage("C:\\Users\\NARENDER KESWANI\\Downloads\\data-flair-icon.jpeg");    
+ Image icon = Toolkit.getDefaultToolkit().getImage("C:\\Users\\USERS\\Downloads\\data-flair-icon.jpeg");    
 
  // Button game
  JButton btn1 = new JButton("");
@@ -292,7 +292,7 @@ public class TicTaeToe implements ActionListener{
     }
  
  if (win) {
-     lbl.setText("Hurray! Player " + letter + " wins!");
+     lbl.setText("Horray! Pemain " + letter + " menang!");
         btn1.setEnabled(false);
         btn2.setEnabled(false);
         btn3.setEnabled(false);
@@ -304,7 +304,7 @@ public class TicTaeToe implements ActionListener{
         btn9.setEnabled(false);
 
  } else if (!win && count == 9) {
-        lbl.setText("The game ended in a tie.");
+        lbl.setText("Hasil permainan seri.");
         btn1.setEnabled(false);
         btn2.setEnabled(false);
         btn3.setEnabled(false);
